@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:pr-436-7arc/adminUser:password
+  username: admin
+dashboardAuthID: vault:pr-436-7arc:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:pr-436-7arc:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:pr-436-7arc/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:pr-436-7arc/prow:hmacToken
